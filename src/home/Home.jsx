@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+	return (
+		<>
+			{/* Hero Section */}
+			<section className='hero'>hi</section>
+		</>
+	);
+};
 
-export default Home
+export default Home;
