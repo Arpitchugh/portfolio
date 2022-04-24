@@ -7,14 +7,19 @@ body {
 }
 
 .hero {
-	&_wrapper {
-		height: 90vh;
-		padding: 0 5rem;
-	}
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	height: 100%;
+
+	&_wrapper {
+		height: 90vh;
+		padding: 0 5rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 	&-greeting {
 		font-family: $font-primary;
 		font-weight: 500;
@@ -52,11 +57,17 @@ body {
 		width: 14rem;
 		font-size: 3rem;
 		margin: 5rem 0 2rem 10rem;
+		svg {
+			color: $color-secondary;
+		}
 
 		svg:hover {
 			transform: scale(1.2);
 			transition: transform 250ms, opacity 400ms;
 			color: $color-primary;
 		}
+	}
+	&-contact {
+		align-self: center;
 	}
 }
