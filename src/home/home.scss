@@ -22,11 +22,13 @@ body {
 
 	&-greeting {
 		font-family: $font-primary;
-		font-weight: 500;
-		font-size: 5rem;
+		font-weight: 600;
+		font-size: 10rem;
 		margin: 10rem 0 2rem 10rem;
 		padding-left: 5rem;
 		position: relative;
+		text-shadow: 0 0px 4px #08fdd8;
+
 		&::before {
 			position: absolute;
 			top: 50%;
@@ -39,8 +41,8 @@ body {
 		}
 	}
 	&-about {
-		font-size: 2rem;
-		width: 65ch;
+		font-size: 2.5rem;
+		width: 51ch;
 		font-family: $font-secondary;
 		font-weight: 300;
 		margin: 0 0 2rem 10rem;
@@ -69,5 +71,9 @@ body {
 	}
 	&-contact {
 		align-self: center;
+
+		li {
+			font-size: 1.5rem !important;
+		}
 	}
 }
