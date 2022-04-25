@@ -12,7 +12,7 @@ const Home = () => {
 			<section className='hero_wrapper'>
 				<div className='hero'>
 					<h1 className='hero-greeting'>
-						{/* <AiOutlineMinus /> */}
+						
 						Hi
 					</h1>
 					<h3 className='hero-about'>
@@ -41,10 +41,33 @@ const Home = () => {
 				</div>
 			</section>
 			<section className='portfolio'>
-				<h1 className='portfolio-heading'>Portfolio</h1>
-				<div className='portfolio-grid'>
-					<img src='' alt='' />
-				</div>
+				<h1 className='portfolio-heading'>Projects</h1>
+				<ul className='portfolio-flex'>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img1.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img2.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img3.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img4.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img5.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img3.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img2.jpg' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/img5.jpg' alt='' />
+					</li>
+				</ul>
 			</section>
 		</>
 	);
