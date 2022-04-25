@@ -11,10 +11,7 @@ const Home = () => {
 			{/* Hero Section */}
 			<section className='hero_wrapper'>
 				<div className='hero'>
-					<h1 className='hero-greeting'>
-						
-						Hi
-					</h1>
+					<h1 className='hero-greeting'>Hi</h1>
 					<h3 className='hero-about'>
 						I’m <span className='hero-about__name'>Arpit</span>, 3rd Year
 						Computer Science Student, UI/UX Designer and Web Developer located
@@ -40,6 +37,8 @@ const Home = () => {
 					<HiOutlineArrowNarrowRight />
 				</div>
 			</section>
+
+			{/* Portfolio Section */}
 			<section className='portfolio'>
 				<h1 className='portfolio-heading'>Projects</h1>
 				<ul className='portfolio-flex'>
@@ -68,6 +67,12 @@ const Home = () => {
 						<img src='/images/img5.jpg' alt='' />
 					</li>
 				</ul>
+			</section>
+
+			{/* Skills Section */}
+			<section className='skills'>
+				<h1 className='skills-heading'>Skill'ls</h1>
+				
 			</section>
 		</>
 	);
