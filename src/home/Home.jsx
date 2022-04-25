@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
+
 import Canvas from '../canvas/Canvas';
 import './home.scss';
 const Home = () => {
@@ -32,6 +34,16 @@ const Home = () => {
 				</div>
 				<div className='hero-contact'>
 					<Canvas />
+				</div>
+				<div class='scroll-down'>
+					<span>scroll down</span>
+					<HiOutlineArrowNarrowRight />
+				</div>
+			</section>
+			<section className='portfolio'>
+				<h1 className='portfolio-heading'>Portfolio</h1>
+				<div className='portfolio-grid'>
+					<img src='' alt='' />
 				</div>
 			</section>
 		</>

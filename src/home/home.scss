@@ -6,6 +6,7 @@ body {
 	padding: 0;
 }
 
+/* ------------------------------ Hero section ------------------------------ */
 .hero {
 	display: flex;
 	justify-content: center;
@@ -27,7 +28,7 @@ body {
 		margin: 10rem 0 2rem 10rem;
 		padding-left: 5rem;
 		position: relative;
-		text-shadow: 0 0px 4px #08fdd8;
+		text-shadow: 0 0px 4px $color-primary;
 
 		&::before {
 			position: absolute;
@@ -75,5 +76,50 @@ body {
 		li {
 			font-size: 1.5rem !important;
 		}
+	}
+}
+
+.scroll-down {
+	position: absolute;
+	right: -20px;
+	bottom: 10rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	transform: rotate(90deg);
+	font-size: 14px;
+}
+.scroll-down--left {
+	left: -30px;
+	right: auto;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(-7px);
+	}
+	100% {
+		transform: translateX(7px);
+	}
+}
+.scroll-down svg {
+	margin-left: 10px;
+	animation: scroll 0.5s linear infinite alternate-reverse;
+	font-size: 2.5rem;
+}
+
+/* -------------------------------- Portfolio Section ------------------------------- */
+
+.portfolio {
+	display: flex;
+	&-heading {
+		font-family: $font-primary;
+		font-weight: 600;
+		font-size: 6rem;
+		margin: 10rem 0 2rem 10rem;
+		padding-left: 5rem;
+		position: relative;
+		text-shadow: 0 0px 4px $color-primary;
 	}
 }
