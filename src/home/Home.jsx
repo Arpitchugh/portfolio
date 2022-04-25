@@ -64,7 +64,9 @@ const Home = () => {
 						<img src='/images/img2.jpg' alt='' />
 					</li>
 					<li className='portfolio-flex__elem'>
-						<img src='/images/img5.jpg' alt='' />
+						<a href= "https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit">
+							<img src='/images/NOTY.png' alt='' />
+						</a>
 					</li>
 				</ul>
 			</section>
@@ -72,7 +74,6 @@ const Home = () => {
 			{/* Skills Section */}
 			<section className='skills'>
 				<h1 className='skills-heading'>Skill'ls</h1>
-				
 			</section>
 		</>
 	);
