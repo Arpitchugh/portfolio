@@ -73,6 +73,10 @@ const Canvas = () => {
 							<li>
 								<Link to='/'>MacOS</Link>
 							</li>
+
+							<li>
+								<Link to='/'>Figma</Link>
+							</li>
 						</ul>
 					</canvas>
 				</div>
