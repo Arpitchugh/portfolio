@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
-
+import Skills from '../skills/Skills';
 import Canvas from '../canvas/Canvas';
 import './home.scss';
 const Home = () => {
@@ -64,7 +64,7 @@ const Home = () => {
 						<img src='/images/img2.jpg' alt='' />
 					</li>
 					<li className='portfolio-flex__elem'>
-						<a href= "https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit">
+						<a href='https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit'>
 							<img src='/images/NOTY.png' alt='' />
 						</a>
 					</li>
@@ -73,7 +73,8 @@ const Home = () => {
 
 			{/* Skills Section */}
 			<section className='skills'>
-				<h1 className='skills-heading'>Skill'ls</h1>
+				<h1 className='skills-heading'>Skills</h1>
+				<Skills />
 			</section>
 		</>
 	);

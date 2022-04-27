@@ -7,6 +7,7 @@ $(document).ready(function () {
 				depth: 0.5,
 				maxSpeed: 0.08,
 				weight: true,
+				noSelect: true,
 			},
 			'tags'
 		)
