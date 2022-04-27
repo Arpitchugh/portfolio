@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import Skills from '../skills/Skills';
 import Canvas from '../canvas/Canvas';
+import Footer from '../footer/Footer';
 import './home.scss';
 const Home = () => {
 	return (
@@ -18,15 +18,15 @@ const Home = () => {
 						in Chandigarh, India, looking to work around the globe.
 					</h3>
 					<div className='hero-icons'>
-						<Link to='/'>
+						<a href='#'>
 							<FiInstagram />
-						</Link>
-						<Link to='/'>
+						</a>
+						<a href='#'>
 							<FiLinkedin />
-						</Link>
-						<Link to='/'>
+						</a>
+						<a href='#'>
 							<FiGithub />
-						</Link>
+						</a>
 					</div>
 				</div>
 				<div className='hero-contact'>
@@ -76,8 +76,11 @@ const Home = () => {
 				<h1 className='skills-heading'>Skills</h1>
 				<Skills />
 			</section>
+			<footer>
+				<h1 className='skills-heading'>Footer</h1>
+				<Footer />
+			</footer>
 		</>
 	);
 };
-
 export default Home;

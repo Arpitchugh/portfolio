@@ -123,7 +123,7 @@ $lime: #eaef91;
 //  animation
 
 .fill-1 {
-	animation: fill-1 0.5s ease-out 0s;
+	animation: fill-1 0.5s ease-out 0.25s;
 	animation-fill-mode: forwards;
 	width: 0%;
 }
@@ -137,7 +137,7 @@ $lime: #eaef91;
 }
 
 .fill-2 {
-	animation: fill-2 0.5s ease-out 0.25s;
+	animation: fill-2 0.5s ease-out 0.5s;
 	animation-fill-mode: forwards;
 	width: 0%;
 }
@@ -151,7 +151,7 @@ $lime: #eaef91;
 }
 
 .fill-3 {
-	animation: fill-3 0.5s ease-out 0.5s;
+	animation: fill-3 0.5s ease-out 0.75s;
 	animation-fill-mode: forwards;
 	width: 0%;
 }
@@ -164,16 +164,4 @@ $lime: #eaef91;
 	}
 }
 
-.fill-4 {
-	animation: fill-3 0.5s ease-out 0.5s;
-	animation-fill-mode: forwards;
-	width: 0%;
-}
-@keyframes fill-4 {
-	0% {
-		width: 0%;
-	}
-	100% {
-		width: 80%;
-	}
-}
+

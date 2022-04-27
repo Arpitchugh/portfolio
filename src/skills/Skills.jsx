@@ -33,11 +33,11 @@ const Skills = () => {
 					style={{ width: '90%' }}
 				></span>
 			</div>
-			<b style={{ width: '80%' }}>NodeJs</b>
+			<b style={{ width: '85%' }}>NodeJs</b>
 			<div className='progress'>
 				<span
-					className='progress-bar cool fill-4 '
-					style={{ width: '80%' }}
+					className='progress-bar cool fill-3 '
+					style={{ width: '85%' }}
 				></span>
 			</div>
 			

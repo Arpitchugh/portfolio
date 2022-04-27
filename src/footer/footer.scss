@@ -1,0 +1,83 @@
+@import '../util.scss';
+
+.form {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	&-elem {
+		display: flex;
+		flex-direction: column;
+	}
+
+	textarea {
+		margin: 2rem;
+		font-size: 2rem;
+		padding: 1rem;
+		width: 40rem;
+		max-height: 4rem;
+	}
+
+	input {
+		margin: 1rem 2rem;
+		font-size: 2rem;
+		padding: 1rem;
+	}
+	.message {
+		min-height: 16rem;
+	}
+	.btn {
+		margin: 2rem auto;
+		border: none;
+		padding: 1rem 4.4rem;
+		font-size: 3.6rem;
+		position: relative;
+		&::before {
+			transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			content: '';
+			width: 50%;
+			height: 100%;
+			background: $color-bg;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		& .btn-text {
+			color: $color-secondary;
+			mix-blend-mode: difference;
+		}
+        &:hover{
+		&::before{
+			background: $color-bg;
+			width: 100%;
+		}
+	}
+	}
+	.map {
+		width: 50%;
+	}
+}
+
+.or {
+	font-size: 15rem;
+	color: #08fdd848;
+}
+
+.contact {
+	.heading {
+		font-size: 5rem;
+		font-family: $font-logo;
+		color: $color-primary;
+		margin-bottom: 10rem;
+	}
+	.subheading {
+		font-size: 2.5rem;
+		font-family: $font-primary;
+		font-weight: 400;
+		margin: 3rem 0;
+	}
+	.hero-icons {
+        margin-top: 8rem;
+		margin-left: 0;
+	}
+}
