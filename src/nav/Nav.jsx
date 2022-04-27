@@ -19,7 +19,7 @@ const Nav = () => {
 					<li className='nav-list__elem'>About</li>
 				</Link>
 				<Link to='/'>
-					<li className='nav-list__elem'>Let's Contact</li>
+					<li className='nav-list__elem'>Let's Connect</li>
 				</Link>
 			</ul>
 		</nav>
