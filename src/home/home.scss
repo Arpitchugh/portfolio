@@ -19,6 +19,8 @@ body {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+
+		
 	}
 
 	&-greeting {
@@ -75,6 +77,9 @@ body {
 
 		li {
 			font-size: 1.5rem !important;
+		}
+		@media screen and (max-width: 900px) {
+			display: none !important;
 		}
 	}
 }
