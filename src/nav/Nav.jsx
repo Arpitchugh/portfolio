@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './nav.scss';
-const Nav = () => {
+
+export const HamNav = () => {
+	return <nav className='hamnav'>HIO</nav>;
+};
+export const Nav = () => {
 	return (
-		<nav>
-			<div className='brand-logo'>
-				ArpitChugh
-			</div>
+		<nav className='nav'>
+			<div className='brand-logo'>ArpitChugh</div>
 			<ul className='nav-list'>
 				<Link to='/'>
 					{' '}
@@ -25,5 +27,3 @@ const Nav = () => {
 		</nav>
 	);
 };
-
-export default Nav;

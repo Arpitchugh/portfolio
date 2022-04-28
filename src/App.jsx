@@ -1,13 +1,14 @@
 import './app.scss';
 import Home from './home/Home';
-import Nav from './nav/Nav';
+import { Nav, HamNav } from './nav/Nav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Cursor from './cursor/Cursor';
 
 const App = () => {
 	return (
 		<Router>
-			<Cursor/>
+			<Cursor />
+			<HamNav />
 			<Nav />
 			<Routes>
 				<Route path='/' element={<Home />} />
