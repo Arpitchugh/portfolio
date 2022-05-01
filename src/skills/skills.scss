@@ -34,22 +34,21 @@ b {
 	line-height: 0.8;
 
 	position: relative;
-	&:before,
-	&:after {
-		content: '';
-		display: block;
-		position: absolute;
-		width: 0.1rem;
-		height: 100%;
-		background-color: $font-med;
-		top: 0;
-	}
-	&:before {
-		left: 0;
-	}
-	&:after {
-		right: 0;
-	}
+	// &:before,
+	// &:after {
+	// 	display: block;
+	// 	position: absolute;
+	// 	width: 0.1rem;
+	// 	height: 100%;
+	// 	background-color: $font-med;
+	// 	top: 0;
+	// }
+	// &:before {
+	// 	left: 0;
+	// }
+	// &:after {
+	// 	right: 0;
+	// }
 }
 
 /*
@@ -163,5 +162,3 @@ $lime: #eaef91;
 		width: 85%;
 	}
 }
-
-
