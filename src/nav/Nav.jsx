@@ -62,18 +62,18 @@ export const Nav = () => {
 		<nav className='nav'>
 			<div className='brand-logo'>ArpitChugh</div>
 			<ul className='nav-list'>
-				<Link to='/'>
+				<a href='#'>
 					<li className='nav-list__elem'>Resume</li>{' '}
-				</Link>
-				<Link to='/'>
+				</a>
+				<a href='#projects'>
 					<li className='nav-list__elem'>Projects</li>
-				</Link>
-				<Link to='/'>
+				</a>
+				<a href='#projects'>
 					<li className='nav-list__elem'>About</li>
-				</Link>
-				<Link to='/'>
+				</a>
+				<a href='#connect'>
 					<li className='nav-list__elem'>Let's Connect</li>
-				</Link>
+				</a>
 			</ul>
 		</nav>
 	);

@@ -5,7 +5,7 @@ import './footer.scss';
 const Footer = () => {
 	return (
 		<>
-			<div className='form'>
+			<div className='form' id='connect'>
 				<div className='form-elem'>
 					<textarea type='text' name='name' placeholder='Name' />
 					<textarea type='email' name='email' placeholder='Email' />

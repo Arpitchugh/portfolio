@@ -40,7 +40,7 @@ const Home = () => {
 
 			{/* Portfolio Section */}
 			<section className='portfolio'>
-				<h1 className='portfolio-heading'>Projects</h1>
+				<h1 className='portfolio-heading' id='projects'>Projects</h1>
 				<ul className='portfolio-flex'>
 					<li className='portfolio-flex__elem'>
 						<img src='/images/img1.jpg' alt='' />
