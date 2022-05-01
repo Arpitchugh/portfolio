@@ -1,16 +1,14 @@
 @import '../util.scss';
 
-.brand-logo {
-	font-family: $font-logo;
-	font-size: 5rem;
-	color: $color-primary;
-	padding: 4.5rem 5rem;
-}
 .nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 5rem;
-
+	.brand-logo {
+		font-family: $font-logo;
+		font-size: 5rem;
+		color: $color-primary;
+	}
 	.nav-list {
 		display: flex;
 		list-style: none;
@@ -33,20 +31,31 @@
 }
 
 // hamnav css
+
 .navigation {
 	display: none;
 	overflow: hidden;
 	@media screen and (max-width: 1024px) {
 		display: block;
 	}
+	&-logo {
+		font-family: $font-logo;
+		font-size: 5rem;
+		color: $color-primary;
+		padding: 4.5rem 5rem;
+			display: none;
 
-	&__checkbox {
+		@media screen and (max-width: 900px) {
+			display: block;
+		}
+	}
+	&-checkbox {
 		display: none;
 		height: 6rem;
 		width: 6rem;
 	}
 
-	&__button {
+	&-button {
 		background-color: $color-bg;
 		height: 6rem;
 		width: 6rem;
@@ -60,7 +69,7 @@
 		cursor: pointer;
 	}
 
-	&__background {
+	&-background {
 		height: 4.5rem;
 		width: 4rem;
 		border-radius: 50%;
@@ -72,7 +81,7 @@
 		background-image: radial-gradient(circle, $color-bg, $color-secondary);
 	}
 
-	&__nav-ham {
+	&-nav-ham {
 		height: 100vh;
 		width: 0;
 		position: fixed;
@@ -83,7 +92,7 @@
 		transition: all 0.8s cubic-bezier(0.86, -0.55, 0.265, 1.55);
 	}
 
-	&__list {
+	&-list {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -92,11 +101,11 @@
 		text-align: center;
 	}
 
-	&__item {
+	&-item {
 		margin: 1rem;
 	}
 
-	&__link {
+	&-link {
 		&:link,
 		&:visited {
 			display: inline-block;
@@ -127,16 +136,16 @@
 		}
 	}
 
-	&__checkbox:checked ~ &__background {
+	&-checkbox:checked ~ &-background {
 		transform: scale(80);
 	}
 
-	&__checkbox:checked ~ &__nav-ham {
+	&-checkbox:checked ~ &-nav-ham {
 		opacity: 1;
 		width: 100%;
 	}
 
-	&__icon {
+	&-icon {
 		position: relative;
 		margin-top: 2.8rem;
 
@@ -166,15 +175,15 @@
 		}
 	}
 
-	&__button:hover &__icon::before {
+	&-button:hover &-icon::before {
 		top: -1rem;
 	}
 
-	&__button:hover &__icon::after {
+	&-button:hover &-icon::after {
 		top: 1rem;
 	}
 
-	&__checkbox:checked + &__button &__icon {
+	&-checkbox:checked + &-button &-icon {
 		background-color: transparent;
 
 		&::before {
