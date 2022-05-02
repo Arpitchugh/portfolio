@@ -14,13 +14,14 @@ body {
 	height: 100%;
 
 	&_wrapper {
-		height: 90vh;
+		// height: 90vh;
 		padding: 0 5rem;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-
-		
+		@media screen and (max-width: 1367px) {
+			padding: 0;
+		}
 	}
 
 	&-greeting {
@@ -31,6 +32,11 @@ body {
 		padding-left: 5rem;
 		position: relative;
 		text-shadow: 0 0px 4px $color-primary;
+
+		@media screen and (max-width: 1367px) {
+			margin: 10rem 0 2rem 5rem;
+			
+		}
 
 		&::before {
 			position: absolute;
@@ -54,14 +60,19 @@ body {
 			font-size: 3.5rem;
 			color: $color-primary;
 		}
+		@media screen and (max-width: 1367px) {
+			width: 45ch;
+			margin-left: 7rem;
+		}
 	}
 	&-icons {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 14rem;
+		width: 16rem;
 		font-size: 3rem;
 		margin: 5rem 0 2rem 10rem;
+		
 		svg {
 			color: $color-secondary;
 		}
@@ -70,6 +81,11 @@ body {
 			transform: scale(1.2);
 			transition: transform 250ms, opacity 400ms;
 			color: $color-primary;
+		}
+		@media screen and (max-width: 1367px) {
+					margin: 5rem 0 2rem 7rem;
+
+			
 		}
 	}
 	&-contact {
@@ -141,13 +157,23 @@ body {
 		}
 	}
 	&-flex {
-		display: flex;
-		flex-wrap: wrap;
-		padding: 5rem 8rem;
-		height: 90vh;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 15px;
+		padding: 0px 114px;
+		justify-items: center;
+		align-items: center;
+		// for responsive
+		@media (max-width:1000px){
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+		@media (max-width:800px){
+			grid-template-columns: 1fr 1fr;
+		}
 
 		&__elem {
-			width: 25%;
+			width: 100%;
+			height: 35rem;
 			position: relative;
 			overflow: hidden;
 
