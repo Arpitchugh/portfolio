@@ -43,11 +43,11 @@ const Home = () => {
 				<h1 className='portfolio-heading' id='projects'>Projects</h1>
 				<ul className='portfolio-flex'>
 					<li className='portfolio-flex__elem'>
-						<img src='/images/img1.jpg' alt='' />
+						<img src='/images/ACM.png' alt='' />
 					</li>
-					<li className='portfolio-flex__elem'>
-						<img src='/images/img2.jpg' alt='' />
-					</li>
+					<a href='#' className='portfolio-flex__elem'>
+						<img src='/images/WOODCASE.png' alt='' />
+					</a>
 					<li className='portfolio-flex__elem'>
 						<img src='/images/img3.jpg' alt='' />
 					</li>
