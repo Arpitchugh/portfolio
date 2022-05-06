@@ -43,29 +43,29 @@ const Home = () => {
 				<h1 className='portfolio-heading' id='projects'>Projects</h1>
 				<ul className='portfolio-flex'>
 					<li className='portfolio-flex__elem'>
-						<img src='/images/ACM.png' alt='' />
+						<img src='/images/acm.png' alt='' />
 					</li>
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/WOODCASE.png' alt='' />
+						<img src='/images/woodcase.png' alt='' />
 					</a>
 					<li className='portfolio-flex__elem'>
+						<img src='/images/tourna.png' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/bankist.png' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/bankist.png' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
 						<img src='/images/img3.jpg' alt='' />
 					</li>
 					<li className='portfolio-flex__elem'>
-						<img src='/images/img4.jpg' alt='' />
-					</li>
-					<li className='portfolio-flex__elem'>
-						<img src='/images/img5.jpg' alt='' />
-					</li>
-					<li className='portfolio-flex__elem'>
-						<img src='/images/img3.jpg' alt='' />
-					</li>
-					<li className='portfolio-flex__elem'>
-						<img src='/images/img2.jpg' alt='' />
+						<img src='/images/trvl.png' alt='' />
 					</li>
 					<li className='portfolio-flex__elem'>
 						<a href='https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit'>
-							<img src='/images/NOTY.png' alt='' />
+							<img src='/images/noty.png' alt='' />
 						</a>
 					</li>
 				</ul>
