@@ -40,7 +40,9 @@ const Home = () => {
 
 			{/* Portfolio Section */}
 			<section className='portfolio'>
-				<h1 className='portfolio-heading' id='projects'>Projects</h1>
+				<h1 className='portfolio-heading' id='projects'>
+					Projects
+				</h1>
 				<ul className='portfolio-flex'>
 					<li className='portfolio-flex__elem'>
 						<img src='/images/acm.png' alt='' />
@@ -52,16 +54,16 @@ const Home = () => {
 						<img src='/images/tourna.png' alt='' />
 					</li>
 					<li className='portfolio-flex__elem'>
-						<img src='/images/bankist.png' alt='' />
-					</li>
-					<li className='portfolio-flex__elem'>
-						<img src='/images/bankist.png' alt='' />
-					</li>
-					<li className='portfolio-flex__elem'>
-						<img src='/images/img3.jpg' alt='' />
-					</li>
-					<li className='portfolio-flex__elem'>
 						<img src='/images/trvl.png' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/tourna.png' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/bankist.png' alt='' />
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img src='/images/shriproperty.png' alt='' />
 					</li>
 					<li className='portfolio-flex__elem'>
 						<a href='https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit'>
