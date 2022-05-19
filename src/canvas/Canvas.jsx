@@ -6,7 +6,8 @@ const Canvas = () => {
 		<>
 			<div className='skills-charts'>
 				<div id='myCanvasContainer'>
-					<canvas width='500' height='500' id='myCanvas'>
+					
+					<canvas width='600' height='600' id='myCanvas'>
 						<ul id='tags'>
 							<li>
 								<Link to='/'>HTML</Link>

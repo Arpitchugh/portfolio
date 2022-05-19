@@ -4,6 +4,8 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import Skills from '../skills/Skills';
 import Canvas from '../canvas/Canvas';
 import Footer from '../footer/Footer';
+import Project from '../project/Project';
+
 import './home.scss';
 const Home = () => {
 	return (
@@ -72,10 +74,16 @@ const Home = () => {
 					</a>
 				</ul>
 			</section>
-
+			{/*projects*/}
+			<Project
+				heading={'Recent Projects'}
+				username={"Arpitchugh"}
+				length={1}
+				specfic={["WoodCase","Ecommerce-Website","Cpp"]}
+			/>
 			{/* Skills Section */}
 			<section className='skills'>
-				<h1 className='skills-heading'>Skills</h1>
+				<h1 className='skills-heading mg-b'>Skills</h1>
 				<Skills />
 			</section>
 			<footer>
