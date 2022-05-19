@@ -1,53 +1,13 @@
 import React from 'react';
 import './skills.scss';
-// { skillName, proficiency; }
 
-const Skills = () => {
+const Skills = props => {
 	return (
-		// <div className='content'>
-		// 	<b style={{ width: '95%' }}>Html/ Css</b>
-		// 	<div className='progress'>
-		// 		<span
-		// 			className='progress-bar cool fill-1'
-		// 			style={{ width: '95%' }}
-		// 		></span>
-		// 	</div>
-		// 	<b style={{ width: '90%' }}>JavaScript</b>
-		// 	<div className='progress'>
-		// 		<span
-		// 			className='progress-bar cool fill-2'
-		// 			style={{ width: '90%' }}
-		// 		></span>
-		// 	</div>
-		// 	<b style={{ width: '85%' }}>React</b>
-		// 	<div className='progress'>
-		// 		<span
-		// 			className='progress-bar cool fill-3 '
-		// 			style={{ width: '85%' }}
-		// 		></span>
-		// 	</div>
-		//     <b style={{ width: '90%' }}>UI/UX</b>
-		// 	<div className='progress'>
-		// 		<span
-		// 			className='progress-bar cool fill-2'
-		// 			style={{ width: '90%' }}
-		// 		></span>
-		// 	</div>
-		// 	<b style={{ width: '85%' }}>NodeJs</b>
-		// 	<div className='progress'>
-		// 		<span
-		// 			className='progress-bar cool fill-3 '
-		// 			style={{ width: '85%' }}
-		// 		></span>
-		// 	</div>
-
-		// </div>
-
 		<section id='skill-section'>
 			<div className='header skill-head'>
 				<h3>Here are my skills which represent my Expertise</h3>
 			</div>
-			<div className='skill-main'>
+			<div className='skill'>
 				<div className='skill-bar'>
 					<div className='info'>
 						<p>JavaScript</p>
@@ -81,16 +41,16 @@ const Skills = () => {
 						<p className='percent'>80%</p>
 					</div>
 					<div className='bar'>
-						<span className='mongo'></span>
+						<span className='nodejs'></span>
 					</div>
 				</div>
 				<div className='skill-bar'>
 					<div className='info'>
-						<p>HTML</p>
-						<p className='percent'>90%</p>
+						<p>Figma</p>
+						<p className='percent'>85%</p>
 					</div>
 					<div className='bar'>
-						<span className='html'></span>
+						<span className='react'></span>
 					</div>
 				</div>
 				<div className='skill-bar'>
@@ -99,7 +59,7 @@ const Skills = () => {
 						<p className='percent'>80%</p>
 					</div>
 					<div className='bar'>
-						<span className='sql'></span>
+						<span className='nodejs'></span>
 					</div>
 				</div>
 				<div className='skill-bar'>
@@ -108,7 +68,7 @@ const Skills = () => {
 						<p className='percent'>90%</p>
 					</div>
 					<div className='bar'>
-						<span className='ds'></span>
+						<span className='javascript'></span>
 					</div>
 				</div>
 				<div className='skill-bar'>
