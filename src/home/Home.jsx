@@ -76,16 +76,16 @@ const Home = () => {
 				<br /><br/>
 			</section>
 			{/*projects*/}
-			{/* <Project
+			<Project
 				heading={'Recent Projects'}
 				username={"Arpitchugh"}
 				length={1}
 				specfic={["WoodCase","Ecommerce-Website","Cpp"]}
-			/> */}
+			/>
 			{/* Skills Section */}
 			<section className='skills'>
 				<h1 className='skills-heading mg-b'>Skills</h1>
-				<Skills />
+				{/* <Skills /> */}
 			</section>
 			<footer>
 				<h1 className='skills-heading'>Footer</h1>

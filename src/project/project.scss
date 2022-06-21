@@ -1,0 +1,55 @@
+@import '../util.scss';
+
+.project {
+  width: 80% !important;
+  margin: auto;
+	&-heading {
+		font-family: $font-primary;
+		font-weight: 600;
+		font-size: 6rem;
+		margin: 10rem 0 2rem 0;
+		padding-left: 5rem;
+		margin-bottom: 5rem;
+		position: relative;
+		text-shadow: 0 0px 4px $color-primary;
+
+		&::before {
+			position: absolute;
+			top: 50%;
+			left: -50px;
+			width: 50px;
+			height: 3px;
+			margin-left: 4.5rem;
+			background: $color-primary;
+			content: '';
+		}
+	}
+}
+.card {
+	transition: transform 0.3s, box-shadow 0.3s;
+	color: black;
+	&:hover {
+		box-shadow: 0 2rem 3rem rgba(black, 0.175) !important;
+		transform: translateY(-2px);
+		transition: transform 0.3s, box-shadow 0.3s;
+	}
+	h5 {
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1.4rem;
+	}
+}
+.skills-tabs {
+	flex-grow: 1;
+}
+.skills-tab {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.btn,
+.badge {
+	color: black !important;
+	font-size: 1rem !important;
+}
