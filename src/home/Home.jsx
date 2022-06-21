@@ -73,14 +73,15 @@ const Home = () => {
 						</a>
 					</a>
 				</ul>
+				<br /><br/>
 			</section>
 			{/*projects*/}
-			<Project
+			{/* <Project
 				heading={'Recent Projects'}
 				username={"Arpitchugh"}
 				length={1}
 				specfic={["WoodCase","Ecommerce-Website","Cpp"]}
-			/>
+			/> */}
 			{/* Skills Section */}
 			<section className='skills'>
 				<h1 className='skills-heading mg-b'>Skills</h1>
