@@ -39,6 +39,12 @@
 	p {
 		font-size: 1.8rem;
 	}
+	.btn,
+	.badge {
+		font-size: 1.3rem !important;
+		margin-right: 1rem;
+		
+	}
 }
 .skills-tabs {
 	flex-grow: 1;
@@ -48,12 +54,6 @@
 	text-align: center;
 }
 
-.btn,
-.badge {
-	font-size: 1.3rem !important;
-	margin-right: 1rem;
-	
-}
 
 .github-svg {
 	width: 20px;
