@@ -1,8 +1,8 @@
 @import '../util.scss';
 
 .project {
-  width: 80% !important;
-  margin: auto;
+	width: 80% !important;
+	margin: auto;
 	&-heading {
 		font-family: $font-primary;
 		font-weight: 600;
@@ -27,17 +27,17 @@
 }
 .card {
 	transition: transform 0.3s, box-shadow 0.3s;
-	color: black;
+	background-color: $color-bg !important;
 	&:hover {
-		box-shadow: 0 2rem 3rem rgba(black, 0.175) !important;
+		box-shadow: 0 2rem 3rem rgba(rgb(224, 221, 221), 0.175) !important;
 		transform: translateY(-2px);
 		transition: transform 0.3s, box-shadow 0.3s;
 	}
 	h5 {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 	p {
-		font-size: 1.4rem;
+		font-size: 1.8rem;
 	}
 }
 .skills-tabs {
@@ -50,6 +50,15 @@
 
 .btn,
 .badge {
-	color: black !important;
-	font-size: 1rem !important;
+	font-size: 1.3rem !important;
+	margin-right: 1rem;
+	
+}
+
+.github-svg {
+	width: 20px;
+	height: 20px;
+	svg{
+		fill: white;
+	}
 }

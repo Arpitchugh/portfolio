@@ -15,7 +15,7 @@ const ProjectCard = ({ value }) => {
   } = value;
   return (
     <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+      <Card className="card shadow-lg p-3 mb-5 rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
@@ -42,12 +42,12 @@ const CardButtons = ({ svn_url }) => {
     <>
       <a
         href={`${svn_url}/archive/master.zip`}
-        className="btn btn-outline-secondary mr-3"
+        className="btn btn-outline-primary mr-3"
       >
-        <i className="fab fa-github" /> Clone Project
+        <img src="/images/icons/github.svg" alt="github" class='github-svg'/> Clone Project
       </a>
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
-        <i className="fab fa-github" /> Repo
+        <img src="/images/icons/github.svg" alt="github" class='github-svg'/> Repo
       </a>
     </>
   );
@@ -77,7 +77,7 @@ const Language = ({ languages_url, repo_url }) => {
   }
 
   return (
-    <div className="pb-3">
+    <div className="pb-3" style={{fontSize: '1.6rem'}}>
       Languages:{" "}
       {array.length
         ? array.map((language) => (
@@ -96,7 +96,7 @@ const Language = ({ languages_url, repo_url }) => {
   );
 };
 
-const CardFooter = ({ star_count, repo_url, pushed_at }) => {
+const CardFooter = ({ repo_url, pushed_at }) => {
   const [updated_at, setUpdated_at] = useState("0 mints");
 
   const handleUpdatetime = useCallback(() => {
@@ -127,10 +127,6 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
         target=" _blank"
         className="text-dark text-decoration-none"
       >
-        <span className="text-dark card-link mr-4">
-          <i className="fab fa-github" /> Stars{" "}
-          <span className="badge badge-dark">{star_count}</span>
-        </span>
       </a>
       <small className="text-muted">Updated {updated_at}</small>
     </p>
