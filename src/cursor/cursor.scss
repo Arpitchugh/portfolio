@@ -19,8 +19,8 @@
 	mix-blend-mode: difference;
 
 	.main-cursor-background {
-		width: 30px;
-		height: 30px;
+		width: 10px;
+		height: 10px;
 		background: $color-secondary !important;
 		border-radius: 50%;
 	}
@@ -49,6 +49,7 @@
 			transform: translateY(-50%);
 			animation: fadeOut 0.75s cubic-bezier(0.77, 0, 0.175, 1) 0s forwards;
 		}
+		
 		&:before {
 			left: 10px;
 		}

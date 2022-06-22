@@ -47,46 +47,44 @@ const Home = () => {
 				</h1>
 				<ul className='portfolio-flex'>
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/acm.png' alt='acm' />
+						<img src='/images/shriproperty.png' alt='' />
 					</a>
+
 					<a href='#' className='portfolio-flex__elem'>
 						<img src='/images/woodcase.png' alt='woodcase' />
 					</a>
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/tourna.png' alt='' />
+						<img src='/images/acm.png' alt='acm' />
+					</a>
+					<a href='#' className='portfolio-flex__elem bg-white'>
+						<img src='/images/estudy.svg' alt='' />
 					</a>
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/trvl.png' alt='' />
-					</a>
-					<a href='#' className='portfolio-flex__elem'>
 						<img src='/images/tourna.png' alt='' />
 					</a>
+					
 					<a href='#' className='portfolio-flex__elem'>
 						<img src='/images/bankist.png' alt='' />
 					</a>
-					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/shriproperty.png' alt='' />
-					</a>
+
 					<a href='#' className='portfolio-flex__elem'>
 						<a href='https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit'>
 							<img src='/images/noty.png' alt='' />
 						</a>
 					</a>
 				</ul>
-				<br /><br/>
+				<br />
+				<br />
 			</section>
 			{/*projects*/}
 			<Project
-				heading={'Recent Projects'}
-				username={"Arpitchugh"}
-				length={1}
-				specfic={["WoodCase","Ecommerce-Website","Cpp"]}
+				heading={'Github'}
+				username={'Arpitchugh'}
+				length={2}
+				specfic={['WoodCase', 'Ecommerce-Website']}
 			/>
 			{/* Skills Section */}
-			<section className='skills'>
-				<h1 className='skills-heading mg-b'>Skills</h1>
-				{/* <Skills /> */}
-			</section>
+
 			<footer>
 				<h1 className='skills-heading'>Footer</h1>
 				<Footer />

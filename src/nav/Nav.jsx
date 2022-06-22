@@ -39,14 +39,6 @@ export const HamNav = () => {
 							className='navigation-item'
 							style={{ width: '400px', margin: '3rem' }}
 						>
-							<a href='#' className='navigation-link'>
-								About
-							</a>
-						</li>
-						<li
-							className='navigation-item'
-							style={{ width: '400px', margin: '3rem' }}
-						>
 							<a href='#connect' className='navigation-link'>
 								Let's Connect
 							</a>
@@ -62,15 +54,13 @@ export const Nav = () => {
 		<nav className='nav'>
 			<div className='brand-logo'>ArpitChugh</div>
 			<ul className='nav-list'>
-				<a href='#'>
+				<a href='https://drive.google.com/file/d/1QA9TQvNayAjE7pvjMRZVkoyguZ9iybnB/view?usp=sharing' target='_blank'>
 					<li className='nav-list__elem'>Resume</li>{' '}
 				</a>
 				<a href='#projects'>
 					<li className='nav-list__elem'>Projects</li>
 				</a>
-				<a href='#projects'>
-					<li className='nav-list__elem'>About</li>
-				</a>
+
 				<a href='#connect'>
 					<li className='nav-list__elem'>Let's Connect</li>
 				</a>

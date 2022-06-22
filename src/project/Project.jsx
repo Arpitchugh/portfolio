@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ProjectCard from './ProjectCard';
 import axios from 'axios';
@@ -55,7 +54,7 @@ const Project = ({ heading, username, length, specfic }) => {
 	}, [fetchRepos]);
 
 	return (
-		<Container className="project">
+		<div className="project">
 			<h2 className=' project-heading'>{heading}</h2>
 			<Row>
 				{projectsArray.length
@@ -74,7 +73,7 @@ const Project = ({ heading, username, length, specfic }) => {
 							/>
 					  ))}
 			</Row>
-		</Container>
+		</div>
 	);
 };
 
