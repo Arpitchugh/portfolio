@@ -13,7 +13,7 @@ const Home = () => {
 			{/* Hero Section */}
 			<section className='hero_wrapper'>
 				<div className='hero'>
-					<h1 className='hero-greeting'>Hi</h1>
+					<h1 className='heading'>Hi</h1>
 					<h3 className='hero-about'>
 						I’m <span className='hero-about__name'>Arpit</span>, 3rd Year
 						Computer Science Student, UI/UX Designer and Web Developer located
@@ -42,7 +42,7 @@ const Home = () => {
 
 			{/* Portfolio Section */}
 			<section className='portfolio'>
-				<h1 className='portfolio-heading' id='projects'>
+				<h1 className='heading mg-r' id='projects'>
 					Projects
 				</h1>
 				<ul className='portfolio-flex'>
@@ -51,10 +51,10 @@ const Home = () => {
 					</a>
 
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/woodcase.png' alt='woodcase' />
+						<img src='/images/woodcase.png' alt='' />
 					</a>
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/acm.png' alt='acm' />
+						<img src='/images/acm.png' alt='' />
 					</a>
 					<a href='#' className='portfolio-flex__elem bg-white'>
 						<img src='/images/estudy.svg' alt='' />
@@ -82,11 +82,12 @@ const Home = () => {
 				username={'Arpitchugh'}
 				length={2}
 				specfic={['WoodCase', 'Ecommerce-Website']}
+				
 			/>
 			{/* Skills Section */}
 
 			<footer>
-				<h1 className='skills-heading'>Footer</h1>
+				<h1 className='heading'>Footer</h1>
 				<Footer />
 			</footer>
 		</>

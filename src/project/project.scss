@@ -12,7 +12,9 @@
 		margin-bottom: 5rem;
 		position: relative;
 		text-shadow: 0 0px 4px $color-primary;
-
+		@media screen and (max-width: 700px) {
+			margin-left: 5rem;
+		}
 		&::before {
 			position: absolute;
 			top: 50%;
@@ -43,7 +45,6 @@
 	.badge {
 		font-size: 1.3rem !important;
 		margin-right: 1rem;
-		
 	}
 }
 .skills-tabs {
@@ -54,11 +55,10 @@
 	text-align: center;
 }
 
-
 .github-svg {
 	width: 20px;
 	height: 20px;
-	svg{
+	svg {
 		fill: white;
 	}
 }
