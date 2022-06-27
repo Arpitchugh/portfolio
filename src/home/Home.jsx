@@ -20,13 +20,13 @@ const Home = () => {
 						in Chandigarh, India, looking to work around the globe.
 					</h3>
 					<div className='hero-icons'>
-						<a href='#'>
+						<a href='https://www.linkedin.com/in/arpit-chugh'>
 							<FiInstagram />
 						</a>
-						<a href='#'>
+						<a href='https://www.linkedin.com/in/arpit-chugh'>
 							<FiLinkedin />
 						</a>
-						<a href='#'>
+						<a href='https://github.com/arpitchugh'>
 							<FiGithub />
 						</a>
 					</div>
@@ -62,7 +62,7 @@ const Home = () => {
 					<a href='#' className='portfolio-flex__elem'>
 						<img src='/images/tourna.png' alt='' />
 					</a>
-					
+
 					<a href='#' className='portfolio-flex__elem'>
 						<img src='/images/bankist.png' alt='' />
 					</a>
@@ -82,7 +82,6 @@ const Home = () => {
 				username={'Arpitchugh'}
 				length={2}
 				specfic={['WoodCase', 'Ecommerce-Website']}
-				
 			/>
 			{/* Skills Section */}
 

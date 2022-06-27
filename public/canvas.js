@@ -4,8 +4,8 @@ $(document).ready(function () {
 			{
 				textColour: '#08fdd8',
 				outlineColour: 'transparent',
-				depth: 0.5,
-				maxSpeed: 0.08,
+				depth: 1,
+				maxSpeed: 0.1,
 				weight: true,
 				noSelect: true,
 			},

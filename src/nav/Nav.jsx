@@ -1,8 +1,10 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './nav.scss';
 
 export const HamNav = () => {
+	const [checked, setChecked] = useState(false);
+
 	return (
 		<>
 			<div className='navigation-logo'>ArpitChugh</div>
@@ -11,6 +13,8 @@ export const HamNav = () => {
 					type='checkbox'
 					className='navigation-checkbox'
 					id='navi-toogle'
+					defaultChecked={checked}
+					onChange={() => setChecked(!checked)}
 				/>
 				<label for='navi-toogle' className='navigation-button'>
 					<span className='navigation-icon'>&nbsp;</span>
@@ -18,12 +22,18 @@ export const HamNav = () => {
 				<div className='navigation-background'>&nbsp;</div>
 
 				<nav className='navigation-nav-ham'>
-					<ul className='navigation-list'>
+					<ul
+						className='navigation-list'
+						style={checked ? { display: 'block' } : { display: 'none' }}
+					>
 						<li
 							className='navigation-item'
 							style={{ width: '400px', margin: '3rem' }}
 						>
-							<a href='#' className='navigation-link'>
+							<a
+								href='https://drive.google.com/file/d/1QA9TQvNayAjE7pvjMRZVkoyguZ9iybnB/view?usp=sharing'
+								className='navigation-link'
+							>
 								Resume
 							</a>
 						</li>
@@ -31,16 +41,22 @@ export const HamNav = () => {
 							className='navigation-item'
 							style={{ width: '400px', margin: '3rem' }}
 						>
-							<a href='#projects' className='navigation-link'>
-								Projects
+							<a
+								href='https://github.com/arpitchugh'
+								className='navigation-link'
+							>
+								Github
 							</a>
 						</li>
 						<li
 							className='navigation-item'
 							style={{ width: '400px', margin: '3rem' }}
 						>
-							<a href='#connect' className='navigation-link'>
-								Let's Connect
+							<a
+								href='https://www.linkedin.com/in/arpit-chugh'
+								className='navigation-link'
+							>
+								Linkedin
 							</a>
 						</li>
 					</ul>
@@ -54,7 +70,10 @@ export const Nav = () => {
 		<nav className='nav'>
 			<div className='brand-logo'>ArpitChugh</div>
 			<ul className='nav-list'>
-				<a href='https://drive.google.com/file/d/1QA9TQvNayAjE7pvjMRZVkoyguZ9iybnB/view?usp=sharing' target='_blank'>
+				<a
+					href='https://drive.google.com/file/d/1QA9TQvNayAjE7pvjMRZVkoyguZ9iybnB/view?usp=sharing'
+					target='_blank'
+				>
 					<li className='nav-list__elem'>Resume</li>{' '}
 				</a>
 				<a href='#projects'>

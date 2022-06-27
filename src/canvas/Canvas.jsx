@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Canvas = () => {
 	return (
 		<>
-			<div className='skills-charts'>
+			
 				<div id='myCanvasContainer'>
 					
-					<canvas width='500' height='500' id='myCanvas'>
+					<canvas width='550' height='550' id='myCanvas'>
 						<ul id='tags'>
 							<li>
 								<Link to='/'>HTML</Link>
@@ -81,7 +81,6 @@ const Canvas = () => {
 						</ul>
 					</canvas>
 				</div>
-			</div>
 		</>
 	);
 };
