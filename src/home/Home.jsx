@@ -20,13 +20,13 @@ const Home = () => {
 						in Chandigarh, India, looking to work around the globe.
 					</h3>
 					<div className='hero-icons'>
-						<a href='https://www.linkedin.com/in/arpit-chugh'>
+						<a href='https://www.linkedin.com/in/arpit-chugh' target={'_blank'}>
 							<FiInstagram />
 						</a>
-						<a href='https://www.linkedin.com/in/arpit-chugh'>
+						<a href='https://www.linkedin.com/in/arpit-chugh' target={'_blank'}>
 							<FiLinkedin />
 						</a>
-						<a href='https://github.com/arpitchugh'>
+						<a href='https://github.com/arpitchugh' target={'_blank'}>
 							<FiGithub />
 						</a>
 					</div>

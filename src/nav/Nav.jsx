@@ -33,6 +33,7 @@ export const HamNav = () => {
 							<a
 								href='https://drive.google.com/file/d/1QA9TQvNayAjE7pvjMRZVkoyguZ9iybnB/view?usp=sharing'
 								className='navigation-link'
+								target={'_blank'}
 							>
 								Resume
 							</a>
@@ -44,6 +45,7 @@ export const HamNav = () => {
 							<a
 								href='https://github.com/arpitchugh'
 								className='navigation-link'
+								target={'_blank'}
 							>
 								Github
 							</a>
@@ -55,6 +57,7 @@ export const HamNav = () => {
 							<a
 								href='https://www.linkedin.com/in/arpit-chugh'
 								className='navigation-link'
+								target={'_blank'}
 							>
 								Linkedin
 							</a>

@@ -26,13 +26,13 @@ const Footer = () => {
 					<h3 className='subheading'>Arpiitchugh@gmail.com</h3>
 					<h3 className='subheading'>+91 9501478900</h3>
 					<div className='hero-icons'>
-						<a href='https://www.linkedin.com/in/arpit-chugh'>
+						<a href='https://www.linkedin.com/in/arpit-chugh' target={'_blank'}>
 							<FiInstagram />
 						</a>
-						<a href='https://www.linkedin.com/in/arpit-chugh'>
+						<a href='https://www.linkedin.com/in/arpit-chugh' target={'_blank'}>
 							<FiLinkedin />
 						</a>
-						<a href='https://github.com/arpitchugh'>
+						<a href='https://github.com/arpitchugh' target={'_blank'}>
 							<FiGithub />
 						</a>
 					</div>
