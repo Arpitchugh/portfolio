@@ -51,10 +51,10 @@ const Home = () => {
 					</a>
 
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/woodcase.png' alt='' />
+						<img src='/images/WOODCASE.png' alt='' />
 					</a>
 					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/acm.png' alt='' />
+						<img src='/images/ACM.png' alt='' />
 					</a>
 					<a href='#' className='portfolio-flex__elem bg-white'>
 						<img src='/images/estudy.svg' alt='' />
@@ -69,7 +69,7 @@ const Home = () => {
 
 					<a href='#' className='portfolio-flex__elem'>
 						<a href='https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit'>
-							<img src='/images/noty.png' alt='' />
+							<img src='/images/NOTY.png' alt='' />
 						</a>
 					</a>
 				</ul>
