@@ -23,7 +23,7 @@
 		padding: 1rem;
 		width: 40rem;
 		max-height: 4rem;
-		@media screen and (max-width: 450px){
+		@media screen and (max-width: 450px) {
 			width: 35rem;
 		}
 	}
@@ -84,10 +84,15 @@
 		font-family: $font-primary;
 		font-weight: 400;
 		text-decoration: none;
-		
 	}
 	.hero-icons {
 		// margin-top: 8rem;
 		margin-left: 0;
+	}
+}
+
+.Toastify__toast-body {
+	div {
+		font-size: 2rem !important;
 	}
 }

@@ -1,0 +1,42 @@
+@import '../util.scss';
+
+.modal-container {
+	background: rgba(0, 0, 0, 0.644);
+	width: 100%;
+	position: absolute;
+	top: 0;
+	// bottom: 0;
+	z-index: 100;
+
+	&-elem {
+		display: flex;
+		justify-content: space-between;
+		margin: 20rem;
+		padding: 5rem;
+		border-radius: 15px;
+		background: $color-secondary;
+		color: $color-bg;
+
+		&-left {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			a {
+				color: $color-bg !important;
+				font-size: 2rem;
+				margin: 3rem 0;
+				text-decoration: none !important;
+
+                span:hover{
+                    color: $color-primary !important;
+                }
+			}
+			&-img {
+				width: 100%;
+			}
+		}
+		h2:hover {
+			color: $color-primary;
+		}
+	}
+}

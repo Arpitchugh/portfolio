@@ -1,14 +1,26 @@
-import React from 'react';
+import { useState } from 'react';
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import Skills from '../skills/Skills';
 import Canvas from '../canvas/Canvas';
 import Footer from '../footer/Footer';
 import Project from '../project/Project';
-
+import Modal from '../modal/Modal';
 import './home.scss';
 
 const Home = () => {
+	const [modal, setModal] = useState({
+		opened: false,
+		title: 'hi',
+		link: '',
+		src: '',
+	});
+
+	const modalHandler = (title, link, src) => {
+		return () => {
+			setModal({ opened: true, title, link, src });
+		};
+	};
 
 	return (
 		<>
@@ -41,6 +53,7 @@ const Home = () => {
 					<HiOutlineArrowNarrowRight />
 				</div>
 			</section>
+			<Modal modal={modal} setModal={setModal} />
 
 			{/* Portfolio Section */}
 			<section className='portfolio'>
@@ -48,32 +61,86 @@ const Home = () => {
 					Projects
 				</h1>
 				<ul className='portfolio-flex'>
-					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/shriproperty.png' alt='' />
-					</a>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/shriproperty.png'
+							alt=''
+							onClick={modalHandler(
+								'Shri Property',
+								'link',
+								'/images/shriproperty.png'
+							)}
+						/>
+					</li>
 
-					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/WOODCASE.png' alt='' />
-					</a>
-					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/ACM.png' alt='' />
-					</a>
-					<a href='#' className='portfolio-flex__elem bg-white'>
-						<img src='/images/estudy.svg' alt='' />
-					</a>
-					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/tourna.png' alt='' />
-					</a>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/WOODCASE.png'
+							alt=''
+							onClick={modalHandler(
+								'WOODCASE',
+								'link',
+								'/images/website/woodcase.png'
+							)}
+						/>
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/ACM.png'
+							alt=''
+							onClick={modalHandler(
+								'ACM',
+								'https://www.figma.com/file/ktkdLJXP4yMqZrVOonJYia/ACM-Website?node-id=0%3A1',
+								'/images/website/acm.svg'
+							)}
+						/>
+					</li>
+					<li className='portfolio-flex__elem bg-white'>
+						<img
+							src='/images/estudy.svg'
+							alt=''
+							onClick={modalHandler(
+								'ESTUDY',
+								'http://estudy-client.herokuapp.com/',
+								'/images/website/estudy.svg'
+							)}
+						/>
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/tourna.png'
+							alt=''
+							onClick={modalHandler(
+								'TOURNA',
+								'https://arpitchugh.github.io/TourNa/',
+								'/images/website/tourna.png'
+							)}
+						/>
+					</li>
 
-					<a href='#' className='portfolio-flex__elem'>
-						<img src='/images/bankist.png' alt='' />
-					</a>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/bankist.png'
+							alt=''
+							onClick={modalHandler(
+								'BANKIST',
+								'https://arpitchugh.github.io/Bankist/',
+								'/images/website/bankist.png'
+							)}
+						/>
+					</li>
 
-					<a href='#' className='portfolio-flex__elem'>
-						<a href='https://www.canva.com/design/DAE-5cSztjU/ROjP6YMaW4mqARemsXre7Q/edit'>
-							<img src='/images/NOTY.png' alt='' />
-						</a>
-					</a>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/NOTY.png'
+							alt=''
+							onClick={modalHandler(
+								'NOTY',
+								'https://arpitchugh.github.io/notyfornotes/',
+								'/images/website/noty.png'
+							)}
+						/>
+					</li>
 				</ul>
 				<br />
 				<br />
