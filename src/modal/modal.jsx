@@ -2,7 +2,9 @@ import React from 'react'
 
 const modal = () => {
   return (
-    <div>modal</div>
+    <>
+      <h1>Title</h1>
+    </>
   )
 }
 

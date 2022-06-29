@@ -7,7 +7,9 @@ import Footer from '../footer/Footer';
 import Project from '../project/Project';
 
 import './home.scss';
+
 const Home = () => {
+
 	return (
 		<>
 			{/* Hero Section */}
