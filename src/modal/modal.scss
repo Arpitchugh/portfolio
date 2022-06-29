@@ -5,7 +5,7 @@
 	width: 100%;
 	position: absolute;
 	top: 0;
-	// bottom: 0;
+	bottom: 0;
 	z-index: 100;
 
 	&-elem {
@@ -21,18 +21,26 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			height: 100vh;
 			a {
 				color: $color-bg !important;
 				font-size: 2rem;
 				margin: 3rem 0;
 				text-decoration: none !important;
 
-                span:hover{
-                    color: $color-primary !important;
-                }
+				span:hover {
+					color: $color-primary !important;
+				}
 			}
-			&-img {
-				width: 100%;
+			.box {
+				height: 100%;
+			}
+			.box {
+				display: block;
+				overflow-y: scroll;
+				img {
+					width: 100%;
+				}
 			}
 		}
 		h2:hover {

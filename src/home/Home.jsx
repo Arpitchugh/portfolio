@@ -53,9 +53,9 @@ const Home = () => {
 					<HiOutlineArrowNarrowRight />
 				</div>
 			</section>
-			<Modal modal={modal} setModal={setModal} />
 
 			{/* Portfolio Section */}
+			<Modal modal={modal} setModal={setModal} />
 			<section className='portfolio'>
 				<h1 className='heading mg-r' id='projects'>
 					Projects

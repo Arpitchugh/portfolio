@@ -19,11 +19,15 @@ const Modal = ({ modal, setModal }) => {
 					<a href={modal.link} target='_blank'>
 						Link:<span> {modal.link}</span>
 					</a>
+          <div className="box">
+
 					<img
 						src={modal.src}
 						alt={modal.title}
 						className='modal-container-elem-left-img'
 					/>
+          </div>
+
 				</div>
 				<h2
 					onClick={() =>
