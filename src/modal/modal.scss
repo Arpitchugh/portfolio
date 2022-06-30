@@ -3,16 +3,19 @@
 .modal-container {
 	background: rgba(0, 0, 0, 0.644);
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 0;
+	left: 0;
+	right: 0;
 	bottom: 0;
+	height: 90vh;
 	z-index: 100;
 
 	&-elem {
 		display: flex;
 		justify-content: space-between;
-		margin: 20rem;
-		padding: 5rem;
+		margin: 4rem;
+		padding: 1rem 3rem;
 		border-radius: 15px;
 		background: $color-secondary;
 		color: $color-bg;
@@ -21,7 +24,8 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			height: 100vh;
+			height: 90vh;
+
 			a {
 				color: $color-bg !important;
 				font-size: 2rem;
@@ -38,6 +42,7 @@
 			.box {
 				display: block;
 				overflow-y: scroll;
+				height: 100%;
 				img {
 					width: 100%;
 				}
