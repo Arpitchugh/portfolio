@@ -15,27 +15,28 @@ const Modal = ({ modal, setModal }) => {
 		>
 			<div className='modal-container-elem'>
 				<div className='modal-container-elem-left'>
-					<h1>{modal.title}</h1>
+					<div className='test'>
+						<h1>{modal.title}</h1>
+						<img
+							onClick={() =>
+								setModal({ opened: false, title: '', link: '', src: '' })
+							}
+							className='close'
+							src='../images/icons/cross.png'
+						/>
+					</div>
+
 					<a href={modal.link} target='_blank'>
 						Link:<span> {modal.link}</span>
 					</a>
-          <div className="box">
-
-					<img
-						src={modal.src}
-						alt={modal.title}
-						className='modal-container-elem-left-img'
-					/>
-          </div>
-
+					<div className='box'>
+						<img
+							src={modal.src}
+							alt={modal.title}
+							className='modal-container-elem-left-img'
+						/>
+					</div>
 				</div>
-				<h2
-					onClick={() =>
-						setModal({ opened: false, title: '', link: '', src: '' })
-					}
-				>
-					close
-				</h2>
 			</div>
 		</div>
 	);

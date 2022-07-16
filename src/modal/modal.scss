@@ -53,3 +53,13 @@
 		}
 	}
 }
+
+.test {
+	display: flex;
+	align-items: center;
+	.close {
+		color: $color-primary;
+		padding-left: 1rem;
+		width: 3.5rem;
+	}
+}

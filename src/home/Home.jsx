@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
-import Skills from '../skills/Skills';
 import Canvas from '../canvas/Canvas';
 import Footer from '../footer/Footer';
 import Project from '../project/Project';
@@ -116,7 +115,6 @@ const Home = () => {
 								'/images/website/woodcase.png'
 							)}
 						/>
-						
 					</li>
 					<li className='portfolio-flex__elem'>
 						<img
