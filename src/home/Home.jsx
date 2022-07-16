@@ -67,12 +67,45 @@ const Home = () => {
 							alt=''
 							onClick={modalHandler(
 								'Shri Property',
-								'link',
-								'/images/shriproperty.png'
+								'https://shriproperty.com/',
+								'/images/website/shriproperty.png'
+							)}
+						/>
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/tourna.png'
+							alt=''
+							onClick={modalHandler(
+								'TOURNA',
+								'https://arpitchugh.github.io/TourNa/',
+								'/images/website/tourna.png'
 							)}
 						/>
 					</li>
 
+					<li className='portfolio-flex__elem bg-white'>
+						<img
+							src='/images/estudy.svg'
+							alt=''
+							onClick={modalHandler(
+								'ESTUDY',
+								'http://estudy-client.herokuapp.com/',
+								'/images/website/estudy.svg'
+							)}
+						/>
+					</li>
+					<li className='portfolio-flex__elem'>
+						<img
+							src='/images/bankist.png'
+							alt=''
+							onClick={modalHandler(
+								'BANKIST',
+								'https://arpitchugh.github.io/Bankist/',
+								'/images/website/bankist.png'
+							)}
+						/>
+					</li>
 					<li className='portfolio-flex__elem'>
 						<img
 							src='/images/WOODCASE.png'
@@ -92,40 +125,6 @@ const Home = () => {
 								'ACM',
 								'https://www.figma.com/file/ktkdLJXP4yMqZrVOonJYia/ACM-Website?node-id=0%3A1',
 								'/images/website/acm.svg'
-							)}
-						/>
-					</li>
-					<li className='portfolio-flex__elem bg-white'>
-						<img
-							src='/images/estudy.svg'
-							alt=''
-							onClick={modalHandler(
-								'ESTUDY',
-								'http://estudy-client.herokuapp.com/',
-								'/images/website/estudy.svg'
-							)}
-						/>
-					</li>
-					<li className='portfolio-flex__elem'>
-						<img
-							src='/images/tourna.png'
-							alt=''
-							onClick={modalHandler(
-								'TOURNA',
-								'https://arpitchugh.github.io/TourNa/',
-								'/images/website/tourna.png'
-							)}
-						/>
-					</li>
-
-					<li className='portfolio-flex__elem'>
-						<img
-							src='/images/bankist.png'
-							alt=''
-							onClick={modalHandler(
-								'BANKIST',
-								'https://arpitchugh.github.io/Bankist/',
-								'/images/website/bankist.png'
 							)}
 						/>
 					</li>
