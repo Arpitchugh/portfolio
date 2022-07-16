@@ -112,10 +112,11 @@ const Home = () => {
 							alt=''
 							onClick={modalHandler(
 								'WOODCASE',
-								'link',
+								'https://github.com/Arpitchugh/WoodCase',
 								'/images/website/woodcase.png'
 							)}
 						/>
+						
 					</li>
 					<li className='portfolio-flex__elem'>
 						<img
@@ -148,7 +149,7 @@ const Home = () => {
 			<Project
 				heading={'Github'}
 				username={'Arpitchugh'}
-				length={2}
+				length={1}
 				specfic={['WoodCase', 'Ecommerce-Website']}
 			/>
 			{/* Skills Section */}
