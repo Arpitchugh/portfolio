@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 const canvasList = [
 	'HTML',
@@ -13,20 +13,18 @@ const canvasList = [
 	'SASS',
 	'MongoDB',
 	'SQL',
-	'npm',
 	'Canva',
 	'UI',
 	'UX',
 	'Figma',
-	'Windows',
-	'MacOS',
-	'Ubuntu',
 ];
 const Canvas = () => {
+	const canvasHeight = window.innerHeight - 200;
+	
 	return (
 		<>
 			<div id='myCanvasContainer'>
-				<canvas width='550' height='550' id='myCanvas'>
+				<canvas width='550' height={canvasHeight} id='myCanvas'>
 					<ul id='tags'>
 						<li>
 							{canvasList.map(element => (

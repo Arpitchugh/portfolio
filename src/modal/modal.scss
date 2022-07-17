@@ -30,7 +30,10 @@
 				color: $color-bg !important;
 				font-size: 2rem;
 				margin: 3rem 0;
-				text-decoration: none !important;
+				text-decoration: none;
+				span {
+					text-decoration: underline;
+				}
 
 				span:hover {
 					color: #fb8000 !important;

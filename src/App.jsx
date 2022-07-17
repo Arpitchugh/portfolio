@@ -9,7 +9,7 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 const App = () => {
 	return (
 		<Router>
-			<Cursor />
+			{/* <Cursor /> */}
 			<HamNav />
 			<Nav />
 			<Routes>
