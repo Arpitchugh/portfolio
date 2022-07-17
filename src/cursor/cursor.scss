@@ -1,6 +1,6 @@
 @import '../util.scss';
 
-.main-cursor,
+
 .secondary-cursor {
 	z-index: 10000;
 
@@ -13,18 +13,6 @@
 	}
 }
 
-.main-cursor {
-	transition: opacity 1s cubic-bezier(0.77, 0, 0.175, 1);
-	animation: fadeIn 1s cubic-bezier(0.77, 0, 0.175, 1) 0s forwards;
-	mix-blend-mode: difference;
-
-	.main-cursor-background {
-		width: 10px;
-		height: 10px;
-		background: $color-secondary !important;
-		border-radius: 50%;
-	}
-}
 
 .secondary-cursor {
 	width: 50px;
@@ -76,9 +64,7 @@
 		}
 	}
 
-	.main-cursor {
-		animation: fadeOut 0.75s cubic-bezier(0.77, 0, 0.175, 1) 0s forwards;
-	}
+	
 }
 
 .hamburger {
@@ -86,9 +72,7 @@
 		animation: fadeOut 1s cubic-bezier(0.77, 0, 0.175, 1) 0s forwards;
 	}
 
-	.main-cursor-background {
-		animation: scaleUp 1s cubic-bezier(0.77, 0, 0.175, 1) 0s forwards;
-	}
+	
 }
 @keyframes fadeIn {
 	0% {

@@ -68,13 +68,9 @@ const CustomCursor = () => {
 	}, []);
 	return (
 		<div>
-			<div className='main-cursor ' ref={mainCursor}>
-				<div className='main-cursor-background'></div>
-			</div>
 			<div className='secondary-cursor' ref={secondaryCursor}>
 				<div className='cursor-background'></div>
 			</div>
-			
 		</div>
 	);
 };
