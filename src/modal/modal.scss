@@ -13,7 +13,7 @@
 
 	&-elem {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		margin: 4rem;
 		padding: 1rem 3rem;
 		border-radius: 15px;
@@ -33,7 +33,7 @@
 				text-decoration: none !important;
 
 				span:hover {
-					color: $color-primary !important;
+					color: #fb8000 !important;
 				}
 			}
 			.box {
