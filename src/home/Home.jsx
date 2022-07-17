@@ -90,7 +90,7 @@ const Home = () => {
 							onClick={modalHandler(
 								'ESTUDY',
 								'http://estudy-client.herokuapp.com/',
-								'/images/website/estudy.svg'
+								'/images/website/estudy.png'
 							)}
 						/>
 					</li>
