@@ -123,7 +123,7 @@ const Home = () => {
 							onClick={modalHandler(
 								'ACM',
 								'https://www.figma.com/file/ktkdLJXP4yMqZrVOonJYia/ACM-Website?node-id=0%3A1',
-								'/images/website/acm.svg'
+								'/images/website/acm.png'
 							)}
 						/>
 					</li>
