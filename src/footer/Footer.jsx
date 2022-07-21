@@ -16,10 +16,10 @@ const Footer = () => {
 		e.preventDefault();
 		if (!state.name || !state.email || !state.subject || !state.message) {
 			toast.error('pls fill all the details');
-		}else{
-			firebaseDb.child("contacts").push(state);
+		} else {
+			firebaseDb.child('contacts').push(state);
 			setState({ name: '', email: '', subject: '', message: '' });
-			toast.success("Form Submitted yayy")
+			toast.success('Form Submitted yayy');
 		}
 	};
 	const handleInputChange = e => {
@@ -76,7 +76,7 @@ const Footer = () => {
 						+91 9501478900
 					</a>
 					<div className='hero-icons'>
-						<a href='https://www.linkedin.com/in/arpit-chugh' target={'_blank'}>
+						<a href='https://www.instagram.com/arpit_chugh/' target={'_blank'}>
 							<FiInstagram />
 						</a>
 						<a href='https://www.linkedin.com/in/arpit-chugh' target={'_blank'}>
