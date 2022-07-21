@@ -122,7 +122,7 @@ const Home = () => {
 							alt=''
 							onClick={modalHandler(
 								'ACM',
-								'https://www.figma.com/file/ktkdLJXP4yMqZrVOonJYia/ACM-Website?node-id=0%3A1',
+								'https://bit.ly/figmaACM',
 								'/images/website/acm.png'
 							)}
 						/>
